@@ -68,9 +68,7 @@ nav a {
  .banner .profile-img {
     height: 1300px;
     width: 650px;
-   
-    
-    
+    align-items: right;
 }
 .profile-img {
     padding-bottom: 120px;
@@ -184,10 +182,10 @@ main {
 }
 .lets-part {
     display: flex;
-    align-items: center;
-    padding: 100px 100px 100px 100px;
-    gap: 50px;
+    justify-content: space-around;
+    gap: 30px;
     background-color: #FFF8F3;
+    padding: 100px;
    
 }
 .input3{
