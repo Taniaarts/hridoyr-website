@@ -1,0 +1,213 @@
+body {
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+.nav-title {
+    color:  white;
+font-size: 45px;
+font-weight: 800;
+
+}
+.text-primary {
+    color: #FD6E0A;
+}
+.white-text {
+    color: white;
+}
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
+    
+    
+}
+.btn-white {
+    border-radius: 5px;
+    background:white;
+    border:  none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FD6E0A;
+    padding: 15px 35px;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+/* header background color */
+.header {
+    background-color: #0E1024;
+   
+}
+.banner {
+    padding: 30px 0px 0px 150px;
+    display: flex;
+    align-items: center;
+    height: 800px;
+    width: 1100px;
+    
+}
+ .banner .profile-img {
+    height: 1300px;
+    width: 650px;
+   
+    
+    
+}
+.profile-img {
+    padding-bottom: 120px;
+    margin-left: 100px;
+
+}
+.banner-content {
+    padding-bottom: 250px;
+}
+.banner-gretings {
+    font-size: 20px;
+}
+/* section */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0px;
+    font-size: large;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.section-title {
+    color:  black;
+text-align: center;
+font-size: 30px;
+font-weight:bold;
+line-height: 30px;
+
+}
+.section-description {
+    color:   gray;
+text-align: center;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+}
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+.about-info {
+    display: flex;
+    justify-content: space-around;
+    color:black;
+    padding-top: 50px;
+}
+.about-list {
+    text-align: center;
+}
+.what-i-do {
+     text-align: center;
+     padding: 130px;
+     border-radius: 10px;
+     background-color: #FFF8F3;
+     margin: 130px 0px;
+     color: black;
+     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.what-i-do-des {
+    color: gray;
+}
+.card {
+    display: flex;
+    text-align: left;
+    gap: 24px;
+
+}
+.card-image {
+    width: 44px;
+    height: 44px;
+}
+.card-des {
+    font-size: 15px;
+    color: gray;
+}
+.card-list {
+   padding: 40px;
+   border-radius: 5px;
+   background-color: #FFF;
+   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+   
+}
+.resume-title {
+    text-align: center;
+    padding-top: 130px;
+    
+}
+.resume-part {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 50px;
+    gap: 35px;
+}
+.resume-des {
+    font-size: 15px;
+    font-weight: 50px;
+    margin-bottom: 50px;
+    color: gray;
+}
+.resume {
+    align-items: center;
+   
+}
+
+
+.Download-cv {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.lets-part {
+    display: flex;
+    align-items: center;
+    padding: 100px 100px 100px 100px;
+    gap: 50px;
+    background-color: #FFF8F3;
+   
+}
+.input3{
+
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    
+}
+.input {
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+}
+.Lets-connect {
+    padding-bottom: 370px;
+}
+.lets-description {
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+}
+
