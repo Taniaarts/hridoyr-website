@@ -10,7 +10,7 @@ nav {
 }
 .nav-title {
     color:  white;
-font-size: 45px;
+font-size: 40px;
 font-weight: 800;
 
 }
@@ -28,6 +28,7 @@ font-weight: 800;
     font-weight: 700;
     color: white;
     padding: 15px 35px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     
     
 }
@@ -39,6 +40,7 @@ font-weight: 800;
     font-weight: 700;
     color: #FD6E0A;
     padding: 15px 35px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 nav > ul {
     display: flex;
@@ -71,8 +73,13 @@ nav a {
     align-items: right;
 }
 .profile-img {
-    padding-bottom: 120px;
-    margin-left: 100px;
+   padding-bottom:100px ;
+   padding-left:100px ;
+    
+
+}
+.image-area {
+    shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 
 }
 .banner-content {
@@ -185,7 +192,7 @@ main {
     justify-content: space-around;
     gap: 30px;
     background-color: #FFF8F3;
-    padding: 100px;
+    padding: 50px;
    
 }
 .input3{
@@ -199,13 +206,26 @@ main {
     width: 461px;
     height: 64px;
     border-radius: 5px;
+    font-size: 16px;
+    border: 0px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 100%;
 }
 .Lets-connect {
     padding-bottom: 370px;
 }
 .lets-description {
     color: gray;
-    font-size: 16px;
+    font-size: 20pxpx;
     font-weight: 400;
+}
+textarea {
+width: 461px;
+height: 180px;
+border: 0px;
+font-size: 16px;
+border-radius: 5px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+width: 100%;
 }
 
